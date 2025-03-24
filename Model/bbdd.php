@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 class BBDD {
-    private $conection_string = "mysql:dbname=examen2eval; host=localhost";
+    private $conection_string = "mysql:dbname=this_is_tfg; host=localhost";
     private $user = "root";
     private $password = "";
     private $errorM = "";
